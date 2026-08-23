@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f5f7;
+    color: #222;
+}
+
+header {
+    background: #075e35;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #043d24;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7cffb2;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.team-logo {
+    font-size: 50px;
+}
+
+.card button {
+    background: #075e35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #043d24;
+}
+
+footer {
+    margin-top: 40px;
+    background: #043d24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
